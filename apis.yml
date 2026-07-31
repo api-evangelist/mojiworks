@@ -1,8 +1,28 @@
 aid: mojiworks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mojiworks.png
 name: mojiworks
-description: mojiworks is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Mojiworks is a UK-based social games studio, backed by Balderton Capital, that
+  is pioneering a game genre it calls MuGC (Multi-User Generative Creation) —
+  living, collaborative worlds that communities and AI systems build together.
+  Its released titles include Ready Chef Go, Trivia Party, Chef Showdown and
+  Hatch Cats, and it is building its first MuGC world as a persistent,
+  community-shaped city. The company publishes a public AI Ethics Policy
+  committing to licensed training data, environmental accountability, human
+  oversight and content-safety controls. Mojiworks does not currently expose a
+  public developer platform, API, or SDK; this profile is maintained in the API
+  Evangelist network as a company record and enrichment lead.
 url: https://raw.githubusercontent.com/api-evangelist/mojiworks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Games
+- Gaming
+- Social Games
+- Artificial Intelligence
+- Generative AI
+- Entertainment
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.mojiworks.com/
+- type: PrivacyPolicy
+  url: https://www.mojiworks.com/privacy
+- type: TermsOfService
+  url: https://www.mojiworks.com/terms-and-conditions
+- type: Support
+  url: mailto:hello@mojiworks.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mojiworks
+- type: AIEthicsPolicy
+  url: https://www.mojiworks.com/ai-ethics
+- type: DomainSecurity
+  url: security/mojiworks-domain-security.yml
+- type: WellKnown
+  url: well-known/mojiworks-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

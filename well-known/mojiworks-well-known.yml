@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTP probes of www.mojiworks.com well-known paths
+host: www.mojiworks.com
+paths:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+notes: >-
+  Mojiworks is a consumer social-games studio with no public developer or API
+  surface; no .well-known documents are published. Absence recorded as valid data.
