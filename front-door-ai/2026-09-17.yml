@@ -1,0 +1,25 @@
+# Front Door AI Index — mojiworks — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: mojiworks
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.mojiworks.com
+  final_host: mojiworks.com
+  ownership: own
+  owner: mojiworks
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 11
+  host_score: 11
+  density: 21.07
+  words: 522
+  tiers:
+    agentic: 0
+    core: 11
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 11
